@@ -8,7 +8,7 @@ This repo contains the build scripts of the default JupyterHub docker image for 
 
 ## Building the docker image
 
-To build the docker image from this repo. Use `docker buildx build --provenance=false --platform linux/amd64 --no-cache -t <registry-name>/<user-name>/ocean215:v2026.1.0 .`
+To build the docker image from this repo. Use `docker buildx build --provenance=false --platform linux/amd64 --no-cache -t <registry-name>/<user-name>/ocean215:v2026.1.1 .`
 
 ## About packages
 
@@ -81,7 +81,7 @@ via `pip list`
 |conda-self|0.2.0|
 |conda-tree|1.2.0|
 |contourpy|1.3.3|
-|cryptography|48.0.0|
+|cryptography|50.0.1|
 |cycler|0.12.1|
 |Cython|3.2.5|
 |cytoolz|1.1.0|
