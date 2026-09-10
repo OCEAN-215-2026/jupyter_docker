@@ -19,11 +19,6 @@ RUN apt-get update --fix-missing > /dev/null \
         && apt-get clean > /dev/null \
         && rm -rf /var/lib/apt/lists/*
 
-# Install termscp
-RUN TERMSCP_INSTALL_DIR=/usr/local/bin \
-	curl --proto '=https' --tlsv1.2 -sSLf https://termscp.rs/install.sh | sh -s -- --yes \
-	&& rm -rf install.sh
-
 # Install micromamba
 RUN curl -fsSL https://micro.mamba.pm/api/micromamba/linux-64/latest \
     | bzip2 -d | tar x --to-stdout bin/micromamba > /usr/local/bin/micromamba \

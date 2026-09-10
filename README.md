@@ -8,7 +8,7 @@ This repo contains the build scripts of the default JupyterHub docker image for 
 
 ## Building the docker image
 
-To build the docker image from this repo. Use `docker buildx build --provenance=false --platform linux/amd64 --no-cache -t <registry-name>/<user-name>/ocean215:v2026.0.0 .`
+To build the docker image from this repo. Use `docker buildx build --provenance=false --platform linux/amd64 --no-cache -t <registry-name>/<user-name>/ocean215:v2026.1.0 .`
 
 ## About packages
 
@@ -89,10 +89,12 @@ via `pip list`
 |debugpy|1.8.21|
 |decorator|5.3.1|
 |defusedxml|0.7.1|
+|Deprecated|1.3.1|
 |dill|0.4.1|
 |distributed|2026.3.0|
 |distro|1.9.0|
 |docutils|0.22.4|
+|donfig|0.8.1.post1|
 |earthaccess|0.19.0|
 |ecmwf-datastores-client|0.5.3|
 |erddapy|3.3.0|
@@ -120,6 +122,7 @@ via `pip list`
 |google-auth|2.57.1|
 |google-auth-httplib2|0.4.2|
 |google-auth-oauthlib|1.4.1|
+|google-crc32c|1.8.0|
 |googleapis-common-protos|1.75.3|
 |greenlet|3.5.1|
 |h11|0.16.0|
@@ -158,6 +161,7 @@ via `pip list`
 |jsonpointer|3.1.1|
 |jsonschema|4.26.0|
 |jsonschema-specifications|2025.9.1|
+|jupyter-book|2.1.6|
 |jupyter_client|8.9.0|
 |jupyter_core|5.9.1|
 |jupyter-events|0.12.1|
@@ -221,6 +225,7 @@ via `pip list`
 |notebook|7.5.7|
 |notebook_shim|0.2.4|
 |numba|0.65.1|
+|numcodecs|0.16.5|
 |numexpr|2.14.1|
 |numpy|2.4.6|
 |oauthlib|3.3.1|
@@ -366,6 +371,7 @@ via `pip list`
 |xlrd|2.0.2|
 |xyzservices|2026.3.0|
 |yarl|1.24.5|
+|zarr|3.3.0|
 |zict|3.0.0|
 |zipp|4.1.0|
 |zstandard|0.25.0|

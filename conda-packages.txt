@@ -2,7 +2,7 @@
 conda-tree
 requests
 jupyter-resource-usage
-# dev tools
+# system utilities
 # core numeric packages
 numpy
 scipy
@@ -11,10 +11,14 @@ pandas
 seaborn
 xarray
 # secondary numeric packages
-imageio
+statsmodels
 scikit-learn
 joblib
 networkx
+dask
+zarr
+# secondary image processing packages
+imageio
 # secondary geographical data packages
 folium
 geopandas
@@ -29,6 +33,7 @@ hdf4
 hdf5
 h5py
 netcdf4
+h5netcdf
 openpyxl
 # web download APIs
 html5lib
@@ -43,12 +48,10 @@ owslib
 # ocean specific
 cartopy
 cmocean
-# otter-grader
+# grading
 otter-grader
+# jupyter-book
+jupyter-book
 # jupyter
-#ipykernel
 ipympl
 jupyter-server-proxy
-#jupyter-lsp
-#jupyterlab
-#notebook
