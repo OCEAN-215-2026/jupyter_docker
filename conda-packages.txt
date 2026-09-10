@@ -1,0 +1,54 @@
+# intersection of rttl-notebooks conda-packages.txt
+conda-tree
+requests
+jupyter-resource-usage
+# dev tools
+# core numeric packages
+numpy
+scipy
+matplotlib
+pandas
+seaborn
+xarray
+# secondary numeric packages
+imageio
+scikit-learn
+joblib
+networkx
+# secondary geographical data packages
+folium
+geopandas
+fiona
+ipyleaflet
+# secondary visualization packages
+altair
+bokeh
+plotly
+# file formats
+hdf4
+hdf5
+h5py
+netcdf4
+openpyxl
+# web download APIs
+html5lib
+gdown
+earthaccess
+sciencebasepy
+ndbc-api
+ooipy
+cdsapi
+argopy
+owslib
+# ocean specific
+cartopy
+cmocean
+# otter-grader
+otter-grader
+# jupyter
+#ipykernel
+ipympl
+jupyter-server-proxy
+#jupyter-lsp
+#jupyterlab
+#notebook

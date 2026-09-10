@@ -1,0 +1,9 @@
+# intersection of rttl-notebooks pip-packages.txt
+flake8
+jupyterlab-a11y-checker
+nbgitpuller
+pipdeptree
+# web download APIs
+rda-apps-clients
+pyncei
+pycmap
