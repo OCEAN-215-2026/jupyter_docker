@@ -8,7 +8,7 @@ This repo contains the build scripts of the default JupyterHub docker image for 
 
 ## Building the docker image
 
-To build the docker image from this repo. Use `docker buildx build --provenance=false --platform linux/amd64 --no-cache -t <registry-name>/<user-name>/ocean215:v2026.1.1 .`
+To build the docker image from this repo. Use `docker buildx build --provenance=false --platform linux/amd64 --no-cache -t <registry-name>/<user-name>/ocean215:v2026.1.2 .`
 
 ## About packages
 
@@ -97,7 +97,7 @@ via `pip list`
 |donfig|0.8.1.post1|
 |earthaccess|0.19.0|
 |ecmwf-datastores-client|0.5.3|
-|erddapy|3.3.0|
+|erddapy|3.2.1|
 |et_xmlfile|2.0.0|
 |exceptiongroup|1.3.1|
 |executing|2.2.1|
@@ -119,7 +119,7 @@ via `pip list`
 |gmpy2|2.3.0|
 |google-api-core|2.34.0|
 |google-api-python-client|2.200.0|
-|google-auth|2.57.1|
+|google-auth|2.58.0|
 |google-auth-httplib2|0.4.2|
 |google-auth-oauthlib|1.4.1|
 |google-crc32c|1.8.0|

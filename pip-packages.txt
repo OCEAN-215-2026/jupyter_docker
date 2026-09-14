@@ -7,5 +7,7 @@ pipdeptree
 rda-apps-clients
 pyncei
 pycmap
+# version conflict fixes
+erddapy==3.2.1
 # security update
 cryptography==50.0.1
