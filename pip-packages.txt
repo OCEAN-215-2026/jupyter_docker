@@ -5,9 +5,8 @@ nbgitpuller
 pipdeptree
 # web download APIs
 rda-apps-clients
+earthaccess
 pyncei
 pycmap
 # version conflict fixes
-erddapy==3.2.1
-# security update
-cryptography==50.0.1
+wrapt==1.17.3

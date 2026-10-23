@@ -1,4 +1,4 @@
-ARG BASE_CONTAINER=quay.io/jupyter/scipy-notebook:hub-5.4.6
+ARG BASE_CONTAINER=quay.io/jupyter/scipy-notebook:hub-6.1.1
 # Based on docker-stacks images at https://github.com/jupyter/docker-stacks/blob/main/images/scipy-notebook/Dockerfile
 # Ubuntu 24.04 LTS (noble)
 
@@ -40,7 +40,7 @@ USER $NB_UID
 COPY --chown=$NB_UID:$NB_GID conda-packages.txt /home/jovyan/
 
 RUN set -ex \
-    && micromamba install --quiet --yes --freeze-installed --file /home/jovyan/conda-packages.txt \
+    && micromamba install --yes --freeze-installed --file /home/jovyan/conda-packages.txt \
     && micromamba clean --all -f -y
 
 RUN jupyter lab build -y \
